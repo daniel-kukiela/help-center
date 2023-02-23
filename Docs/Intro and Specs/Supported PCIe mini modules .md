@@ -8,14 +8,31 @@
 <table style="border-collapse: collapse; width: 100%;" border="1">
 <tbody>
 <tr>
-<td class="wysiwyg-text-align-center" style="width: 33.3333%;"><strong>Vendor</strong></td>
-<td class="wysiwyg-text-align-center" style="width: 33.3333%;"><strong>Type</strong></td>
-<td class="wysiwyg-text-align-center" style="width: 33.3333%;"><strong>Working?</strong></td>
+<td class="wysiwyg-text-align-center" rowspan=2>Vendor</td>
+<td class="wysiwyg-text-align-center" rowspan=2><strong>Type</strong></td>
+<td class="wysiwyg-text-align-center" colspan=3><strong>Working?</strong></td>
+<td class="wysiwyg-text-align-center" rowspan=2><strong>Comments</strong></td>
 </tr>
 <tr>
-<td style="width: 33.3333%;"> </td>
-<td style="width: 33.3333%;"> </td>
-<td style="width: 33.3333%;"> </td>
+<td class="wysiwyg-text-align-center"><strong>Jetson</strong></td>
+<td class="wysiwyg-text-align-center"><strong>CM4 / RPi OS</strong></td>
+<td class="wysiwyg-text-align-center"><strong>Other?</strong></td>
+</tr>
+<tr>
+  <td>InLine 66905</td>
+  <td>USB 3.0 controller</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>N/A</td>
+  <td>Required the middle standoff desoldering. Based on Reneseas D720202 chip</td>
+</tr>
+<tr>
+  <td>NFHK NF-SA-033</td>
+  <td>SATA controller</td>
+  <td>Yes</td>
+  <td>Yes</td>
+  <td>N/A</td>
+  <td>Based on the ASM1061 chip</td>
 </tr>
 </tbody>
 </table>
